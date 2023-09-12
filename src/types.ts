@@ -39,6 +39,10 @@ export type EChartsReactProps = {
    * notMerge config for echarts, default is `false`
    */
   readonly notMerge?: boolean;
+    /**
+   * notMerge config for echarts, default is `false`
+   */
+  readonly replaceMerge?: string | string[];
   /**
    * lazyUpdate config for echarts, default is `false`
    */
